@@ -1,0 +1,324 @@
+{
+    "wh_question_inanimate": {
+        "templates": [
+            "{prefix} {filler}{nc}{article} {np1} {verb}"
+        ],
+        "label": [
+            "filler",
+            "nc"
+        ],
+        "result_prepend_space": false,
+        "labels": {
+            "base": [
+                " it",
+                " that",
+                " those",
+                " this"
+            ],
+            "fg": [
+                " after",
+                " before",
+                " in",
+                " on",
+                "?"
+            ]
+        },
+        "variables": {
+            "prefix": [
+                ""
+            ],
+            "filler": {
+                "base": [
+                    ""
+                ],
+                "fg": [
+                    "What"
+                ]
+            },
+            "nc": {
+                "base": [
+                    "Did",
+                    "Will",
+                    "Could",
+                    "Would",
+                    "Should",
+                    "Can",
+                    "Might"
+                ],
+                "fg": [
+                    " did",
+                    " will",
+                    " could",
+                    " would",
+                    " should",
+                    " can",
+                    " might"
+                ]
+            },
+            "article": [
+                " the",
+                " a"
+            ],
+            "np1": [
+                "employee",
+                "student",
+                "teacher",
+                "doctor",
+                "worker",
+                "customer",
+                "client",
+                "manager",
+                "stranger",
+                "passerby",
+                "volunteer",
+                "nurse",
+                "engineer",
+                "scientist",
+                "artist",
+                "musician",
+                "author",
+                "chef",
+                "athlete",
+                "photographer",
+                "librarian",
+                "professor",
+                "lawyer",
+                "accountant",
+                "designer",
+                "developer",
+                "analyst",
+                "consultant",
+                "therapist",
+                "pharmacist",
+                "dentist",
+                "surgeon",
+                "pilot",
+                "mechanic",
+                "electrician",
+                "plumber",
+                "carpenter",
+                "architect",
+                "journalist",
+                "editor",
+                "producer",
+                "director",
+                "actor",
+                "singer",
+                "dancer",
+                "painter",
+                "sculptor",
+                "writer",
+                "poet",
+                "comedian"
+            ],
+            "verb": [
+                "assemble",
+                "build",
+                "create",
+                "construct",
+                "design",
+                "destroy",
+                "dismantle",
+                "manufacture",
+                "modify",
+                "restore",
+                "polish",
+                "arrange",
+                "rearrange",
+                "organize",
+                "repair",
+                "fix",
+                "break",
+                "damage",
+                "clean",
+                "wash",
+                "paint",
+                "decorate",
+                "install",
+                "remove",
+                "replace",
+                "upgrade",
+                "inspect",
+                "examine",
+                "test",
+                "measure"
+            ]
+        }
+    },
+    "topicalization_inanimate": {
+        "templates": [
+            "{prefix} {filler}{nc}{article} {np1} {verb}"
+        ],
+        "label": [
+            "filler"
+        ],
+        "result_prepend_space": false,
+        "labels": {
+            "base": [
+                " it",
+                " that",
+                " those",
+                " this"
+            ],
+            "fg": [
+                " after",
+                " before",
+                " in",
+                " on",
+                "."
+            ]
+        },
+        "variables": {
+            "prefix": [
+                "Actually,",
+                "In fact,",
+                "To be honest,",
+                "Honestly,",
+                "Truthfully,",
+                "Frankly,",
+                "Surprisingly,",
+                "Interestingly,",
+                "Unexpectedly,",
+                "Shockingly,",
+                "Unbelievably,",
+                "Incredibly,",
+                "Amazingly,",
+                "Remarkably,",
+                "Strangely,",
+                "As usual,",
+                "As always,",
+                "As it happens,",
+                "Naturally,",
+                "Obviously,",
+                "Clearly,",
+                "Apparently,",
+                "Evidently,",
+                "Certainly,",
+                "Undoubtedly,"
+            ],
+            "filler": {
+                "base": [
+                    ""
+                ],
+                "fg": [
+                    "the chair",
+                    "the table",
+                    "the old building",
+                    "the car",
+                    "the computer",
+                    "the book",
+                    "the painting",
+                    "the sculpture",
+                    "the machine",
+                    "the bridge",
+                    "the monument",
+                    "the device",
+                    "the tool",
+                    "the instrument",
+                    "the cabinet",
+                    "the desk",
+                    "the shelf",
+                    "the window",
+                    "the door",
+                    "the wall",
+                    "the floor",
+                    "the roof",
+                    "the fence",
+                    "the garden",
+                    "the statue"
+                ]
+            },
+            "nc": [
+                ""
+            ],
+            "article": [
+                " the",
+                " a"
+            ],
+            "np1": [
+                "employee",
+                "student",
+                "teacher",
+                "doctor",
+                "worker",
+                "customer",
+                "client",
+                "manager",
+                "stranger",
+                "passerby",
+                "volunteer",
+                "nurse",
+                "engineer",
+                "scientist",
+                "artist",
+                "musician",
+                "author",
+                "chef",
+                "athlete",
+                "photographer",
+                "librarian",
+                "professor",
+                "lawyer",
+                "accountant",
+                "designer",
+                "developer",
+                "analyst",
+                "consultant",
+                "therapist",
+                "pharmacist",
+                "dentist",
+                "surgeon",
+                "pilot",
+                "mechanic",
+                "electrician",
+                "plumber",
+                "carpenter",
+                "architect",
+                "journalist",
+                "editor",
+                "producer",
+                "director",
+                "actor",
+                "singer",
+                "dancer",
+                "painter",
+                "sculptor",
+                "writer",
+                "poet",
+                "comedian"
+            ],
+            "verb": [
+                "assembled",
+                "built",
+                "created",
+                "constructed",
+                "designed",
+                "destroyed",
+                "dismantled",
+                "manufactured",
+                "modified",
+                "restored",
+                "polished",
+                "arranged",
+                "rearranged",
+                "organized",
+                "repaired",
+                "fixed",
+                "broke",
+                "damaged",
+                "cleaned",
+                "washed",
+                "painted",
+                "decorated",
+                "installed",
+                "removed",
+                "replaced",
+                "upgraded",
+                "inspected",
+                "examined",
+                "tested",
+                "measured"
+            ]
+        }
+    }
+}
